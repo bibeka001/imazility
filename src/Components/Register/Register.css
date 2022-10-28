@@ -1,0 +1,230 @@
+/* .reg_whole{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 900px;
+    padding: 30px;
+} */
+
+.containee {
+  flex: 1;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.photo1 {
+  flex: 3.2;
+}
+.web_image {
+  /* width: 40%; */
+  max-width: 100%;
+  height: auto;
+}
+.account1 {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  top: 30px;
+  right: 425px;
+  gap: 10px;
+}
+.text1 {
+  /* align-items: center; */
+  /* margin-right: 20px; */
+  margin-top: 15px;
+  color: white;
+  font-size: 15px;
+}
+.form1 {
+  flex: 1;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.logoo {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 42px;
+}
+.imggg {
+  max-width: 100%;
+  max-height: "auto";
+}
+.inputContainer1 {
+  flex: 6;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
+  /* flex-wrap: wrap; */
+}
+
+.reg-form1 {
+  /* flex:1; */
+  /* background-color: blue; */
+}
+.reg-form1 h5 {
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.title1 {
+  /* flex: 8; */
+  display: flex;
+  flex-direction: row;
+  padding-top: 8px;
+}
+.titleinput1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding-right: 15px;
+}
+.firstName1 {
+  flex: 2;
+}
+.middleName1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding-right: 15px;
+  background: red;
+}
+.lastName1 {
+  flex: 1;
+}
+::placeholder {
+  /* position:relative; */
+  text-align: center;
+  margin-left: 10px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  margin-top: 8px;
+}
+/* input[required]:placeholder-shown{
+border-color: var(--clr-primary);
+} */
+.titleText1 {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.inputstylePhone1 {
+  /* background-color: yellow; */
+  margin-top: 23px;
+  /* line-height: 1.5; */
+  height: 40px;
+  border-radius: 4px;
+  border-width: 1px;
+  flex: 5;
+  width: 100%;
+}
+.inputstyle {
+  height: 40px;
+}
+
+.inputstyle1 {
+  color: #4d4f5c;
+  overflow: hidden;
+  font-size: 15px;
+  text-align: left;
+  width: 100%;
+  padding: 0.375rem, 0.75rem;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: #fff;
+  background-clip: padding-box;
+  height: 40px;
+  border-radius: 4px;
+  border-width: 1px;
+}
+
+.next1 {
+  /* background-color: rgb(105, 105, 211); */
+  border-radius: 4px;
+  /* padding-right: 50px; */
+  height: 45px;
+  color: #19a0da;
+  border: 0;
+  background: transparent;
+  outline: 0;
+  font: normal;
+  text-align: justify;
+  width: fit-content;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+}
+
+.terms1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.checkBox {
+  margin-right: 8px;
+  position: relative;
+  top: 1px;
+}
+.conditions1 {
+  color: #19a0da;
+  border: 0 !important;
+  width: fit-content;
+  margin-left: 5px;
+  text-decoration: none;
+  /* background-color: red; */
+}
+.button1 {
+  margin: 0;
+  display: inline-flex;
+  align-items: center;
+  vertical-align: bottom;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  margin: 10px;
+  top: 15px;
+}
+.button_Details1 {
+  color: #fff;
+  background: #2196f3;
+  border: 1px solid #2196f3;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 3px;
+  font-weight: 400;
+  text-transform: uppercase;
+  width: 90px;
+}
+
+.title_message {
+  display: flex;
+  /* margin-top: 60px; */
+  /* margin-right: 100px; */
+  justify-content: start;
+  margin-left: 0px;
+}
+
+.firstname_message {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  margin-top: 70px;
+/* flex-direction: row; */
+/* margin-right: 10px; */
+}
+.password_message {
+/* display: flex; */
+/* flex-wrap: wrap; */
+/* justify-content: start; */
+}
+

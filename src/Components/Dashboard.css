@@ -1,0 +1,20 @@
+.timeline{
+    display: flex;
+    width: 65%;
+    /* background: red; */
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid red;
+}
+
+.current_petition{
+    padding: 10px;
+}
+
+.progress{
+    width: 65%;
+align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}

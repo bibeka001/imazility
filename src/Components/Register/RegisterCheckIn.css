@@ -1,0 +1,73 @@
+.check_whole {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.reg_forward {
+  position: absolute;
+  top: 0;
+  display: flex;
+  margin-top: 40px;
+  left: 680px;
+  gap: 20px;
+  align-items: center;
+  color: white;
+}
+
+.reg_forward h4 {
+  font-size: 15px;
+}
+.reg_button {
+  width: 90px;
+  padding: 8px;
+  border-radius: 8px;
+  background: #002e83;
+  color: white;
+}
+
+.regCheck_logo {
+  margin-left: 100px;
+  margin-top: 45px;
+}
+h2 {
+  margin-left: 15px;
+}
+h6 {
+  margin-left: 15px;
+}
+.reg_select {
+  margin-left: 15px;
+  font-size: 15px;
+  color: #797979;
+}
+.reg_checking {
+  margin-left: 40px;
+}
+
+.reg_label {
+  display: flex;
+  gap: 5px;
+  right: 25px;
+  /* background: red; */
+position: relative;
+
+}
+
+.reg_text {
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 0.5rem;
+}
+
+.reg_proceed{
+    color: white;
+    background: #00a0da;
+    border: 1px solid #00a0da;
+    cursor: pointer;
+    height: 40px;
+    width: 100px;
+    padding: auto;
+    border-radius: 5px;
+    margin-left:15px ;
+}
